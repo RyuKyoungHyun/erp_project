@@ -13,8 +13,13 @@
 - 품목관리 / 계약관리 / 계획관리
 - - - -
 ### 기술서
+- 다양한 품목들을 한 날짜를 기준으로 계획을 수립하기 위해 해당품목을 선택하고 수량을 입력한 뒤, 추가버튼을 통해 리스트에 추가해줍니다.
 <img src="/readmeImg/planAdd.png" alt="skillScreen1" style="height: 400px; width:700px;"/>
+- JavaScript를 통해서 배열속에 객체형식으로 키와 값을 설정해 넣어줍니다. 그리고 이것을 Controller로 보내기 위해 Ajax를 이용해 보내주고 보내준 뒤에는 새로고침으로 바뀐 값을 받을 수 있도록 합니다.
 <img src="/readmeImg/planJavaScript.png" alt="skillScreen2" style="height: 400px; width:700px;"/>
+- Ajax에서는 배열의 형태로 보내지고, Controller에서는 String 타입으로 받게 됩니다. 이 String 타입을 속의 객체들을 JSON형태로 쓰기 위해서 'JSONPaser'를 이용합니다.
+- JSONPaser를 통해 JSONArray 타입을 바꿔주고 배열 속의 값들을 JSONObejct로 바꿔줍니다. 그리고 JSONObject 속에서 get메서드를 통해 키를 입력하여 값을 꺼내옵니다.
+- 꺼내진 값들을 DB에 보낼 List로 재구성하여 for문을 통해 하나씩 넣어줍니다. saveAll에 List타입을 넣을시 순서대로 DB에 저장됩니다.
 <img src="/readmeImg/planService.png" alt="skillScreen3" style="height: 400px; width:700px;"/>
 - - - -
 ### 프로젝트 후기
