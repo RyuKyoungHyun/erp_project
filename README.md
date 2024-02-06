@@ -2,15 +2,18 @@
 
 ### 주제
 - springBoot를 이용한 편의점 erp 프로그램 만들기
+
 - - - -
 ### 사용기술
 - Front : HTML / CSS / JavaScript / jQuery / Ajax
 - Back : JAVA / springBoot / thymeleaf
 - Tools : intellij / bootstrap / mySQL
+
 - - - -
 ### 담당업무
 - 발표 
 - 품목관리 / 계약관리 / 계획관리
+
 - - - -
 ### 기술서
 - 다양한 품목들을 한 날짜를 기준으로 계획을 수립하기 위해 해당품목을 선택하고 수량을 입력한 뒤, 추가버튼을 통해 리스트에 추가해줍니다.
@@ -21,6 +24,7 @@
 - JSONPaser를 통해 JSONArray 타입을 바꿔주고 배열 속의 값들을 JSONObejct로 바꿔줍니다. 그리고 JSONObject 속에서 get메서드를 통해 키를 입력하여 값을 꺼내옵니다.
 - 꺼내진 값들을 DB에 보낼 List로 재구성하여 for문을 통해 하나씩 넣어줍니다. saveAll에 List타입을 넣을시 순서대로 DB에 저장됩니다.
 <img src="/readmeImg/planService.png" alt="skillScreen3" style="height: 400px; width:700px;"/>
+
 - - - -
 ### 프로젝트 후기
 - 시스템이 잡힌 곳에서 일을 해보지 못해 ERP 시스템에 대한 이해를 잡는 것이 초기에는 힘들었습니다. 업무 프로세스들을 어떻게 흘러가는가에 대해서 이해하기 위해 공부도 많이 하고 이를 어떻게 코드로 짜서 보여줄 것인지 고민이 정말 많았습니다.
