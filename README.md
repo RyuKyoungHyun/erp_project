@@ -13,7 +13,9 @@
 - 품목관리 / 계약관리 / 계획관리
 - - - -
 ### 기술서
-
+<img src="/readmeImg/planAdd.png" alt="skillScreen1" style="height: 400px; width:700px;"/>
+<img src="/readmeImg/planJavaScript.png" alt="skillScreen2" style="height: 400px; width:700px;"/>
+<img src="/readmeImg/planService.png" alt="skillScreen3" style="height: 400px; width:700px;"/>
 - - - -
 ### 프로젝트 후기
 - 시스템이 잡힌 곳에서 일을 해보지 못해 ERP 시스템에 대한 이해를 잡는 것이 초기에는 힘들었습니다. 업무 프로세스들을 어떻게 흘러가는가에 대해서 이해하기 위해 공부도 많이 하고 이를 어떻게 코드로 짜서 보여줄 것인지 고민이 정말 많았습니다.
